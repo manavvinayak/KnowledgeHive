@@ -1,0 +1,115 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #1A1A1A;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3 {
+   font-family: "Montserrat", sans-serif;
+  color: #2E8B57;
+  font-weight: 600;
+  margin-top: 9vh;
+}
+
+/* Hero Section */
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 0;
+  text-align: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('https://images.unsplash.com/photo-1513258496099-48168024aec0?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 600px;
+  color: white;
+  margin-bottom: 15vh;
+}
+
+.home-content {
+  max-width: 800px;
+  padding: 0 1rem;
+}
+
+.home-content h1 {
+  font-size: 4vw;
+  margin-bottom: 20px;
+}
+
+.home-content p {
+  font-size: 2vw;
+  margin-bottom: 40px;
+  color: aliceblue;
+}
+
+.home-content button {
+  padding: 12px 24px;
+  font-size: 1rem;
+  background-color: #2E8B57;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.home-content button:hover {
+  background-color: #256d46;
+}
+
+/* Tag Section */
+.further {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 100px 2rem;
+  height: 700px;
+  background-image: url('https://plus.unsplash.com/premium_photo-1663045960088-fda623767cf1?q=80&w=2056&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 5vh;
+}
+
+.tag {
+  max-width: 600px;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.tag h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #2E8B57;
+  margin-bottom: 1rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .home-content h1 {
+    font-size: 32px;
+  }
+
+  .home-content p {
+    font-size: 18px;
+  }
+
+  .further {
+    justify-content: center;
+    padding: 4rem 1rem;
+  }
+
+  .tag {
+    max-width: 90%;
+    padding: 1.5rem;
+  }
+
+  .tag h2 {
+    font-size: 1.25rem;
+  }
+}
