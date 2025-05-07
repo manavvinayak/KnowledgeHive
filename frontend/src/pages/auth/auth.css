@@ -3,19 +3,23 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 80vh;
-    background-color: rgb(38, 33, 33);
+    height: 100vh;
+    background-image: url('https://images.unsplash.com/photo-1497864149936-d3163f0c0f4b?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-position: center;
+    background-size: cover;
+    
   
     .auth-form {
-      background-color: #fff;
+      width: 30vw;
+      height: 75vh;
       padding: 30px;
       border-radius: 10px;
-      box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
       text-align: center;
-      width: 300px;
+      box-shadow: 0 4px 15px rgb(108, 157, 176);
+
   
       h2 {
-        font-size: 24px;
+        font-size: 28px;
         color: #2E8B57;
         margin-bottom: 15px;
       }
@@ -26,14 +30,18 @@
         label {
           display: block;
           margin-bottom: 5px;
-          font-size: 14px;
-          color: #333;
+          font-size: 18px;
+        }
+
+        .iter {
+           margin-top: 14px;
         }
   
         input {
           width: 92%;
           padding: 10px;
           margin-bottom: 15px;
+          color: #333;
           border: 1px solid #ccc;
           border-radius: 5px;
         }

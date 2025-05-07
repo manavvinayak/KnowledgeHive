@@ -17,6 +17,14 @@ header {
         font-size: 18px;
       }
     }
+
+    .logo-img {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      height: 80px;
+      width: 80px;
+    }
   
     .link {
       display: flex;
