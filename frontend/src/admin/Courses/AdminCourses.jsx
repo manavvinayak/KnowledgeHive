@@ -148,7 +148,7 @@ const AdminCourses = ({ user }) => {
                   ))}
                 </select>
 
-                <label htmlFor="text">Duration</label>
+                <label htmlFor="number">Duration (in weeks)</label>
                 <input
                   type="number"
                   value={duration}
