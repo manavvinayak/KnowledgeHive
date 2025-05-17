@@ -29,7 +29,7 @@ const Sidebar = () => {
           </Link>
         </li>
 
-        {user && user.mainrole === "superadmin" && (
+        {user && user.role === "admin" && (
           <li>
             <Link to={"/admin/users"}>
               <div className="icon">

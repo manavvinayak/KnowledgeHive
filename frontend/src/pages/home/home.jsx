@@ -15,7 +15,7 @@ const Home = () => {
           <h1>Welcome to LearnInst </h1>
           <p>Learn, Grow & Teach – Simple & Free</p>
           <button onClick={() => navigate("/courses")} className="common-btn">
-            Get Started
+            Learn More
           </button>
         </div>
       </div>
