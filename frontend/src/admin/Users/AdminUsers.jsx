@@ -10,7 +10,7 @@ import toast from "react-hot-toast";
 const AdminUsers = ({ user }) => {
   const navigate = useNavigate();
 
-  if (user && user.mainrole !== "superadmin") return navigate("/");
+  if (user && user.role !== "admin") return navigate("/");
 
   const [users, setUsers] = useState([]);
 
@@ -35,6 +35,7 @@ const AdminUsers = ({ user }) => {
   const updateRole = async (id) => {
     if (confirm("are you sure you want to update this user role")) {
       try {
+        console.log(server)
         const { data } = await axios.put(
           `${server}/api/user/${id}`,
           {},
